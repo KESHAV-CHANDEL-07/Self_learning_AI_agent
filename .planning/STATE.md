@@ -1,9 +1,9 @@
 # Project State
 
 ## Current Position
-**Phase:** 1 — Infrastructure & Daemon
+**Phase:** 2 — Ingestion & Architecture
 **Status:** Ready to plan
-**Last activity:** 2026-03-06 — Phase 1 context gathered
+**Last activity:** 2026-03-06 — Phase 1 executed
 
 ## Key Decisions
 
