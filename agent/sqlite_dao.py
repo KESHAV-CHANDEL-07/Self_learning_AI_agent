@@ -54,7 +54,7 @@ class SQLiteDAO:
             """
         )
         self._conn.commit()
-        self._db_lock = threading.Lock()
+        self._db_lock = threading.RLock()
 
     def get_q(self, state: str, action: str) -> Optional[float]:
         """Return the stored Q‑value for *state*/*action* or ``None``.
@@ -97,3 +97,4 @@ class SQLiteDAO:
         """
         with self._db_lock:
             self._conn.close()
+            SQLiteDAO._instance = None

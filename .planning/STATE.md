@@ -2,8 +2,8 @@
 
 ## Current Position
 **Phase:** 3 — Core Capabilities & Memory
-**Status:** Ready to plan
-**Last activity:** 2026-03-06 — Phase 2 executed (5 plans, 2 commits)
+**Status:** Complete
+**Last activity:** 2026-03-09 — Phase 3 executed (SQLite DAO, plugins, tests)
 
 ## Key Decisions
 
@@ -19,6 +19,7 @@
 | Path filtering: Mixed approach (defaults + global/local config + `.gitignore`). | 2 | User | Offers maximum flexibility for ignoring folders like node_modules or .git. |
 | Plugins: Single file per plugin in `~/.sg_agent/plugins/`, auto-discovered, specific interface. | 2 | User | Simplifies plugin creation and usage with zero manual registration. |
 | Error/Shutdown: 10s graceful timeout, 3x retry on clone, skip on permission errors. | 2 | User | Prevents crashes on long/dirty operations or locked files. |
+| SQLite for Memory: Store Q-values in learning.db | 3 | AI-suggested | Provides persistent, thread-safe, resilient storage vs JSON dictionary. |
 
 ### Blockers/Concerns
 None

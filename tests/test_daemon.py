@@ -5,7 +5,6 @@ import signal
 
 def test_daemon_shutdown():
     watcher = DaemonWatcher("/tmp")
-    watcher.running = True
     
     with patch("agent.daemon.Observer") as MockObserver:
         mock_observer = MockObserver.return_value

@@ -8,7 +8,7 @@
 |-------|------|--------|-------|------|
 | 1 | Infrastructure & Daemon | Complete | 4 | 2026-03-06 |
 | 2 | Ingestion & Architecture | Complete | 5 | 2026-03-06 |
-| 3 | Core Capabilities & Memory | Planned | — | — |
+| 3 | Core Capabilities & Memory | Complete | — | 2026-03-09 |
 
 ### Phases
 
@@ -32,10 +32,10 @@
 #### Phase 3: Core Capabilities & Memory
 **Goal:** Connect the decision engine to a persistent database and ensure the system is stable.
 **Requirements:** [R5, R11]
-- [ ] Replace `q_table.json` logic with a lightweight `SQLite` database for state and history.
-- [ ] Port the existing "File Sorting" and "Cleanup" tasks to the new Plugin Architecture.
-- [ ] Write unit tests for CLI, Plugin Registry, and SQLite Data Access Object (DAO).
-- [ ] End-to-end testing of the complete flow.
+- [x] Replace `q_table.json` logic with a lightweight `SQLite` database for state and history.
+- [x] Port the existing "File Sorting" and "Cleanup" tasks to the new Plugin Architecture.
+- [x] Write unit tests for CLI, Plugin Registry, and SQLite Data Access Object (DAO).
+- [x] End-to-end testing of the complete flow.
 
 ---
 *Last updated: 2026-03-06*
