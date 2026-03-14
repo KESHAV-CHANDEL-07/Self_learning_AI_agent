@@ -1,8 +1,9 @@
 # agent/sqlite_dao.py
-"""SQLite Data Access Object for Q‑table persistence.
+"""SQLite Data Access Object for Q‑table persistence and classification cache.
 
 Provides a thin wrapper around a SQLite database that stores state-action
-Q‑values for the reinforcement‑learning agent. The DAO is thread‑safe
+Q‑values for the reinforcement‑learning agent **and** file classification
+results from the 3-layer classifier pipeline.  The DAO is thread‑safe
 using a simple ``threading.Lock`` because the daemon may invoke the
 agent from multiple threads.
 """
@@ -10,20 +11,32 @@ agent from multiple threads.
 import os
 import sqlite3
 import threading
-from typing import Tuple, Optional
+from datetime import datetime, timezone
+from typing import Dict, Tuple, Optional
 
 DEFAULT_DB_PATH = os.path.expanduser("~/.sg_agent/data/learning.db")
 
 class SQLiteDAO:
-    """Singleton‑style DAO for Q‑table storage.
+    """Singleton‑style DAO for Q‑table storage and classification cache.
 
-    The table schema is:
+    The table schemas are:
     ```sql
     CREATE TABLE IF NOT EXISTS q_table (
         state TEXT NOT NULL,
         action TEXT NOT NULL,
         q_value REAL NOT NULL,
         PRIMARY KEY (state, action)
+    );
+
+    CREATE TABLE IF NOT EXISTS classifications (
+        file_path TEXT NOT NULL PRIMARY KEY,
+        file_hash TEXT NOT NULL,
+        pattern_category TEXT,
+        ast_category TEXT,
+        llm_category TEXT,
+        final_category TEXT NOT NULL,
+        confidence REAL NOT NULL,
+        decided_at TEXT NOT NULL
     );
     ```
     """
@@ -53,8 +66,24 @@ class SQLiteDAO:
             );
             """
         )
+        self._conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS classifications (
+                file_path TEXT NOT NULL PRIMARY KEY,
+                file_hash TEXT NOT NULL,
+                pattern_category TEXT,
+                ast_category TEXT,
+                llm_category TEXT,
+                final_category TEXT NOT NULL,
+                confidence REAL NOT NULL,
+                decided_at TEXT NOT NULL
+            );
+            """
+        )
         self._conn.commit()
         self._db_lock = threading.RLock()
+
+    # ── Q-table methods ──────────────────────────────────────────────────
 
     def get_q(self, state: str, action: str) -> Optional[float]:
         """Return the stored Q‑value for *state*/*action* or ``None``.
@@ -92,9 +121,71 @@ class SQLiteDAO:
             cur = self._conn.execute("SELECT state, action, q_value FROM q_table")
             return tuple(cur.fetchall())
 
+    # ── Classification cache methods ─────────────────────────────────────
+
+    def save_classification(
+        self,
+        file_path: str,
+        file_hash: str,
+        pattern_category: Optional[str],
+        ast_category: Optional[str],
+        llm_category: Optional[str],
+        final_category: str,
+        confidence: float,
+    ) -> None:
+        """Insert or replace a classification result."""
+        with self._db_lock:
+            self._conn.execute(
+                """REPLACE INTO classifications
+                   (file_path, file_hash, pattern_category, ast_category,
+                    llm_category, final_category, confidence, decided_at)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                (
+                    file_path,
+                    file_hash,
+                    pattern_category,
+                    ast_category,
+                    llm_category,
+                    final_category,
+                    confidence,
+                    datetime.now(timezone.utc).isoformat(),
+                ),
+            )
+            self._conn.commit()
+
+    def get_classification(self, file_path: str) -> Optional[Dict]:
+        """Return the cached classification for *file_path* or ``None``."""
+        with self._db_lock:
+            cur = self._conn.execute(
+                "SELECT * FROM classifications WHERE file_path = ?",
+                (file_path,),
+            )
+            row = cur.fetchone()
+            return self._row_to_classification(cur, row) if row else None
+
+    def get_classification_by_hash(self, file_hash: str) -> Optional[Dict]:
+        """Return a cached classification matching *file_hash* or ``None``."""
+        if not file_hash:
+            return None
+        with self._db_lock:
+            cur = self._conn.execute(
+                "SELECT * FROM classifications WHERE file_hash = ?",
+                (file_hash,),
+            )
+            row = cur.fetchone()
+            return self._row_to_classification(cur, row) if row else None
+
+    @staticmethod
+    def _row_to_classification(cursor, row) -> Dict:
+        cols = [desc[0] for desc in cursor.description]
+        return dict(zip(cols, row))
+
+    # ── lifecycle ────────────────────────────────────────────────────────
+
     def close(self) -> None:
         """Close the underlying SQLite connection.
         """
         with self._db_lock:
             self._conn.close()
             SQLiteDAO._instance = None
+

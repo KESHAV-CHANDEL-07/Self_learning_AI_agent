@@ -2,23 +2,41 @@ import random
 from utils.config import LEARNING_RATE, DISCOUNT_FACTOR, EXPLORATION_RATE, EXPLORATION_DECAY, MIN_EXPLORATION_RATE, SUPPORTED_FILE_TYPES
 from utils.logger import get_logger
 from agent.sqlite_dao import SQLiteDAO
+from agent.file_classifier import FileClassifier
 
 logger = get_logger("Decision")
 
 class QLearningDecision:
-    def __init__(self, actions_list):
+    def __init__(self, actions_list, use_llm=False):
         self.actions_list = actions_list
         self.exploration_rate = EXPLORATION_RATE
         self.learning_rate = LEARNING_RATE
         self.discount_factor = DISCOUNT_FACTOR
         self.dao = SQLiteDAO()
+        self.classifier = FileClassifier(use_llm=use_llm, dao=self.dao)
 
     def get_state_key(self, state):
-        """Convert state dictionary to a hashable string key for Q-table."""
+        """Convert state dictionary to a hashable string key for Q-table.
+
+        Uses the 3-layer FileClassifier to produce a granular state key
+        based on the file's category and subcategory.
+        """
+        filepath = state.get("filepath")
+        if filepath:
+            try:
+                result = self.classifier.classify(filepath)
+                cat = result.get("final_category", "misc")
+                sub = result.get("final_subcategory")
+                if sub:
+                    return f"{cat}/{sub}"
+                return cat
+            except Exception:
+                pass
+
+        # Fallback to extension-based key when no filepath or classifier fails
         ext = state.get("extension", "unknown").lower()
         filename = state.get("filename", "").lower()
-        
-        # Add basic keyword flags to make state more granular
+
         if any(kw in filename for kw in ["test_", ".test"]):
             return f"{ext}_test"
         if any(kw in filename for kw in ["config", "settings", "env"]):
@@ -27,17 +45,7 @@ class QLearningDecision:
             return f"{ext}_main"
         if any(kw in filename for kw in ["init", "__init__"]):
             return f"{ext}_init"
-        if any(kw in filename for kw in ["invoice", "receipt", "billing"]):
-            return f"{ext}_invoice"
-        if any(kw in filename for kw in ["finance", "tax", "financial"]):
-            return f"{ext}_finance"
-        if any(kw in filename for kw in ["report", "summary"]):
-            return f"{ext}_report"
-        if any(kw in filename for kw in ["personal", "private", "secret", "confidential"]):
-            return f"{ext}_private"
-        if any(kw in filename for kw in ["project", "draft", "final"]):
-            return f"{ext}_work"
-            
+
         return ext
         
     def _get_heuristic_action(self, state_key):
@@ -87,7 +95,7 @@ class QLearningDecision:
         old_value = self.get_action_q(state_key, action)
         # In this simple agent, moving a file completes an episode so next max Q is 0
         next_max = 0 
-        
+
         new_value = (1 - self.learning_rate) * old_value + self.learning_rate * (reward + self.discount_factor * next_max)
         self.dao.set_q(state_key, action, new_value)
         logger.debug(f"Updated Q-value for {state_key}, action {action}: {old_value:.2f} -> {new_value:.2f} (Reward: {reward})")

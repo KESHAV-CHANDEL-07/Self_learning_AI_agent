@@ -2,6 +2,7 @@ import os
 import shutil
 from utils.logger import get_logger
 
+
 logger = get_logger("Action")
 
 class ActionExecutor:
@@ -82,7 +83,9 @@ class ActionExecutor:
                     # In a full transactional system, we would call resolver.rope_project.history.undo() here
                     # and move the file back.
                     return False
-                
+
+
+
                 return True
             else:
                 logger.error(f"Failed to resolve references for {filename}")
