@@ -39,7 +39,27 @@ class WorkspaceHandler(FileSystemEventHandler):
             "path": event.src_path,
             "is_directory": event.is_directory,
         }
-        context = {"workspace": str(event.src_path)}
+        # The event.src_path is the exact file. We need to tell the plugins 
+        # what the top-level repo/workspace directory is.
+        # since self.watch_dir and event.src_path might differ (nested files),
+        # we can pass the top-level watch dir itself as the workspace, 
+        # or compute the specific repo directory under watch_dir.
+        # For a structure like ~/.sg_agent/workspaces/<repo>/<file>
+        # we want to pass ~/.sg_agent/workspaces/<repo>
+        from pathlib import Path
+        src = Path(event.src_path)
+        base = Path(self.plugin_registry.plugins_dir).parent / "workspaces" # A simple heuristic
+        try:
+            # find the immediate child of workspaces that contains this file
+            rel_parts = src.relative_to(base).parts
+            if rel_parts:
+                workspace_path = base / rel_parts[0]
+            else:
+                workspace_path = base
+        except ValueError:
+            workspace_path = src.parent
+
+        context = {"workspace": str(workspace_path)}
 
         try:
             self.plugin_registry.run_all(event_data, context)

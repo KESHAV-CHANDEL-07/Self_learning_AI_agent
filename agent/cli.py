@@ -37,7 +37,7 @@ def run_daemon_process():
     plugin_registry = PluginRegistry(plugins_dir=plugins_dir)
 
     watcher = DaemonWatcher(
-        watch_dir=".",
+        watch_dir=str(workspaces_dir),
         poll_interval=config.get("poll_interval", 5),
         path_filter=path_filter,
         plugin_registry=plugin_registry,
@@ -176,6 +176,45 @@ def remove(name: str = typer.Argument(help="Repository name to remove")):
         console.print(f"[bold green]Removed: {name}[/]")
     else:
         console.print(f"[bold red]Failed to remove: {name}[/]")
+@app.command()
+def sweep(name: str = typer.Argument(None, help="Specific repository name to sweep (optional)")):
+    """Manually trigger all plugins (sorting, cleanup, etc.) on managed workspaces."""
+    manager = RepoManager()
+    repo_list = manager.list_repos()
+    
+    if not repo_list:
+        console.print("[yellow]No managed repositories found to sweep.[/]")
+        return
+        
+    global_config_path = Path.home() / ".sg_agent" / "config.yaml"
+    local_config_path = Path(".sg_agent.yaml")
+    config = load_config(global_config_path, local_config_path)
+    plugins_dir = Path(config.get("plugins_dir", str(Path.home() / ".sg_agent" / "plugins")))
+    plugin_registry = PluginRegistry(plugins_dir=plugins_dir)
+    plugin_registry.discover()
+    
+    for repo in repo_list:
+        if name and repo["name"] != name:
+            continue
+            
+        repo_path = repo["path"]
+        console.print(f"[bold green]Sweeping workspace:[/] {repo_path}")
+        
+        event_data = {
+            "type": "manual_sweep",
+            "path": repo_path,
+            "is_directory": True,
+        }
+        context = {"workspace": repo_path}
+        
+        results = plugin_registry.run_all(event_data, context)
+        for plugin, success in results.items():
+            if success:
+                console.print(f"  [green]✓ {plugin} succeeded[/]")
+            else:
+                console.print(f"  [red]✗ {plugin} failed[/]")
+                
+    console.print("[bold green]Sweep complete.[/]")
 
 
 @app.command()
@@ -192,6 +231,74 @@ def repos():
         console.print(table)
     else:
         console.print("[yellow]No managed repositories found.[/]")
+
+
+@app.command()
+def sort(
+    workspace: str = typer.Option(None, "--workspace", "-w", help="Workspace directory"),
+    episodes: int = typer.Option(10, "--episodes", "-e", help="Number of episodes to run"),
+):
+    """Run the file sorting task."""
+    from tasks.file_sorting import run_file_sort_task
+    run_file_sort_task(workspace_dir=workspace, episodes=episodes)
+
+
+@app.command()
+def cleanup(
+    workspace: str = typer.Option(None, "--workspace", "-w", help="Workspace directory"),
+):
+    """Run the workspace cleanup task."""
+    from tasks.file_cleanup import run_cleanup_task
+    run_cleanup_task(workspace_dir=workspace)
+
+
+@app.command()
+def move(
+    file: str = typer.Argument(..., help="Path to the file to move"),
+    dest: str = typer.Argument(..., help="Destination folder name inside workspace"),
+    workspace: str = typer.Option(None, "--workspace", "-w", help="Workspace root directory"),
+):
+    """Move a file and update all references (Package-Aware)."""
+    from agent.action import ActionExecutor
+    # If workspace is not provided, try to infer it from the file's parent
+    if not workspace:
+        workspace = str(Path(file).resolve().parent)
+        console.print(f"[yellow]No workspace specified. Inferring from file location: {workspace}[/]")
+    
+    executor = ActionExecutor(workspace)
+    success = executor.move_file(file, dest)
+    if success:
+        console.print(f"[bold green]Successfully moved {file} to {dest} and updated references.[/]")
+    else:
+        console.print(f"[bold red]Failed to move {file}. Check logs for details.[/]")
+
+
+@app.command()
+def accuracy():
+    """Check the agent's learned knowledge (Accuracy)."""
+    from agent.sqlite_dao import SQLiteDAO
+    dao = SQLiteDAO()
+    entries = dao.all_entries()
+    
+    if not entries:
+        console.print("[yellow]Agent has not learned anything yet. Run some 'sort' tasks first![/]")
+        return
+        
+    table = Table(title="Agent's Learned Intelligence (Accuracy)")
+    table.add_column("File Type (State)", style="cyan")
+    table.add_column("Best Folder (Action)", style="green")
+    table.add_column("Confidence (Q-Value)", style="magenta")
+    
+    # Organize by state to find the best action for each
+    best_actions = {}
+    for state, action, q_val in entries:
+        if state not in best_actions or q_val > best_actions[state][1]:
+            best_actions[state] = (action, q_val)
+            
+    for state, (action, q_val) in sorted(best_actions.items()):
+        table.add_row(state, action, f"{q_val:.2f}")
+        
+    console.print(table)
 
 
 if __name__ == "__main__":

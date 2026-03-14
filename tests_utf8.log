@@ -1,0 +1,58 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.14.3, pytest-9.0.2, pluggy-1.6.0
+rootdir: C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent
+collected 20 items
+
+tests\test_cli.py ...                                                    [ 15%]
+tests\test_config.py ....                                                [ 35%]
+tests\test_daemon.py ..                                                  [ 45%]
+tests\test_decision.py ..                                                [ 55%]
+tests\test_logger.py ..                                                  [ 65%]
+tests\test_path_resolver.py F..                                          [ 80%]
+tests\test_plugins.py ..                                                 [ 90%]
+tests\test_sqlite_dao.py ..                                              [100%]
+
+================================== FAILURES ===================================
+______________________ test_path_resolver_python_imports ______________________
+
+temp_workspace = WindowsPath('C:/Users/kesha/AppData/Local/Temp/pytest-of-kesha/pytest-19/test_path_resolver_python_impo0/workspace')
+
+    def test_path_resolver_python_imports(temp_workspace):
+        resolver = PathResolver(temp_workspace)
+    
+        # Simulate moving utils.py to code/utils.py
+        code_dir = temp_workspace / "code"
+        code_dir.mkdir()
+        shutil.move(str(temp_workspace / "utils.py"), str(code_dir / "utils.py"))
+    
+        # Update references
+        old_path = temp_workspace / "utils.py"
+        new_path = code_dir / "utils.py"
+        resolver.update_references(str(old_path), str(new_path))
+    
+        # Verify main.py
+        main_content = (temp_workspace / "main.py").read_text(encoding="utf-8")
+>       assert "import code.utils" in main_content, "Import declaration failed to update"
+E       AssertionError: Import declaration failed to update
+E       assert 'import code.utils' in 'from code import utils\nfrom code.utils import add\nprint(utils.add(1, 2))\n'
+
+tests\test_path_resolver.py:44: AssertionError
+---------------------------- Captured stderr call -----------------------------
+PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+------------------------------ Captured log call ------------------------------
+INFO     PathResolver:path_resolver.py:148 Updated python imports in main.py: utils -> code.utils
+INFO     PathResolver:path_resolver.py:162 Updated config/doc references in config.json: utils.py -> code/utils.py
+============================== warnings summary ===============================
+tests/test_daemon.py: 18 warnings
+  C:\Users\kesha\AppData\Roaming\Python\Python314\site-packages\pathspec\pathspec.py:260: DeprecationWarning: GitWildMatchPattern ('gitwildmatch') is deprecated. Use 'gitignore' for GitIgnoreBasicPattern or GitIgnoreSpecPattern instead.
+    patterns = [pattern_factory(line) for line in lines if line]
+
+tests/test_daemon.py: 18 warnings
+  C:\Users\kesha\AppData\Roaming\Python\Python314\site-packages\pathspec\pattern.py:125: DeprecationWarning: GitWildMatchPattern ('gitwildmatch') is deprecated. Use 'gitignore' for GitIgnoreBasicPattern or GitIgnoreSpecPattern instead.
+    regex, include = self.pattern_to_regex(pattern)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_path_resolver.py::test_path_resolver_python_imports - Asser...
+================== 1 failed, 19 passed, 36 warnings in 1.11s ==================

@@ -16,6 +16,9 @@ DEFAULT_IGNORE_PATTERNS = [
     "*.egg-info",
     ".venv",
     "venv",
+    ".agent_cache.db",
+    ".ropeproject",
+    "agent.log",
 ]
 
 

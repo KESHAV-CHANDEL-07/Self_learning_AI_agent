@@ -67,3 +67,1235 @@
 2026-03-05 22:52:04,884 - Agent - INFO - Agent cycle completed successfully.
 2026-03-05 22:52:04,884 - FileSortingTask - INFO - File Sorting Task Completed!
 2026-03-05 22:52:04,884 - Main - INFO - All tasks finished successfully.
+2026-03-09 22:18:45,579 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:18:45,580 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 22:18:45,580 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,580 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,580 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 22:18:45,580 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,580 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,580 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 22:18:45,580 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,580 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,581 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 22:18:45,581 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,581 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,581 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 22:18:45,581 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,581 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,581 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 22:18:45,581 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,581 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,581 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 22:18:45,582 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,582 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,582 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 22:18:45,582 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,582 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,582 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 22:18:45,582 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,582 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,582 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 22:18:45,582 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:18:45,582 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:18:45,582 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 22:18:45,587 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:18:45,588 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 22:35:22,006 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:35:22,007 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 22:35:22,007 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,008 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,008 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 22:35:22,008 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,008 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,008 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 22:35:22,008 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,009 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,009 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 22:35:22,009 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,010 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,010 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 22:35:22,010 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,010 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,010 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 22:35:22,010 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,011 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,011 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 22:35:22,011 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,011 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,012 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 22:35:22,012 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,012 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,012 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 22:35:22,012 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,012 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,012 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 22:35:22,012 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:35:22,013 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:35:22,013 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 22:35:22,016 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:35:22,017 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 22:40:41,909 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:40:41,910 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 22:40:41,910 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,910 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,910 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 22:40:41,910 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,910 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,910 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 22:40:41,910 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,911 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,911 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 22:40:41,911 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,911 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,911 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 22:40:41,911 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,912 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,912 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 22:40:41,912 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,912 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,912 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 22:40:41,912 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,912 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,912 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 22:40:41,912 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,913 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,913 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 22:40:41,913 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,913 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,913 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 22:40:41,913 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:41,913 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:41,913 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 22:40:41,915 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:40:41,916 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 22:40:54,665 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:40:54,666 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 22:40:54,666 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,666 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,666 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 22:40:54,666 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,666 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,666 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 22:40:54,666 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,667 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,667 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 22:40:54,667 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,667 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,667 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 22:40:54,667 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,667 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,667 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 22:40:54,667 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,668 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,668 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 22:40:54,668 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,668 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,668 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 22:40:54,668 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,668 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,668 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 22:40:54,668 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,668 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,668 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 22:40:54,668 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:40:54,668 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:40:54,668 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 22:40:54,670 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:40:54,670 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 22:41:19,283 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:41:19,284 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 22:41:19,284 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,284 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,284 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 22:41:19,284 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,284 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,284 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 22:41:19,284 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,284 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,284 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 22:41:19,285 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,285 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,285 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 22:41:19,285 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,285 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,285 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 22:41:19,285 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,285 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,286 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 22:41:19,286 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,286 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,286 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 22:41:19,286 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,286 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,286 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 22:41:19,286 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,286 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,286 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 22:41:19,286 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:19,286 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:19,286 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 22:41:19,288 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:41:19,288 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 22:41:50,252 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:41:50,252 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 22:41:50,252 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,253 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,253 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 22:41:50,253 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,253 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,253 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 22:41:50,253 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,253 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,253 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 22:41:50,253 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,254 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,254 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 22:41:50,254 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,254 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,254 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 22:41:50,254 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,255 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,255 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 22:41:50,255 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,255 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,255 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 22:41:50,255 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,255 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,255 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 22:41:50,255 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,255 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,256 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 22:41:50,256 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:41:50,256 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:41:50,256 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 22:41:50,258 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:41:50,259 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 22:42:43,537 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:42:43,537 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 22:42:43,537 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,537 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,537 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 22:42:43,538 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,538 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,538 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 22:42:43,538 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,538 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,538 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 22:42:43,538 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,539 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,540 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 22:42:43,540 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,540 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,540 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 22:42:43,540 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,540 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,540 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 22:42:43,540 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,540 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,540 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 22:42:43,540 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,541 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,541 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 22:42:43,541 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,542 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,542 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 22:42:43,542 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:42:43,542 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:42:43,542 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 22:42:43,544 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 22:42:43,545 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 22:47:11,516 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha/.sg_agent/workspaces/e2e_test
+2026-03-09 22:47:11,520 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 22:47:11,520 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:47:11,521 - Action - INFO - Moving file test1.txt to images
+2026-03-09 22:47:11,528 - Action - INFO - Moving file test2.jpg to documents
+2026-03-09 22:47:11,531 - Agent - INFO - Agent cycle completed successfully.
+2026-03-09 22:47:11,532 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 22:47:11,532 - Agent - INFO - Starting agent task cycle...
+2026-03-09 22:47:11,532 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 22:47:11,533 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,153 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,154 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,155 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,158 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,158 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,159 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,159 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,159 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,160 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,160 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,161 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,161 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,162 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,162 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,163 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,163 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,163 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,164 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,164 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,165 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,165 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,165 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,166 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,166 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,167 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,167 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,167 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,168 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,168 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,169 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,169 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,169 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,169 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,170 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,170 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,171 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,172 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,172 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,172 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,172 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,173 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,173 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,173 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,174 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,174 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,174 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,174 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,174 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,174 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,175 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,175 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,175 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,176 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,176 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,176 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,176 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,177 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,177 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,177 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,177 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,178 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,178 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,178 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,179 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,179 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,179 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,179 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,180 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,180 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,181 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,181 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,181 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,181 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,182 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,182 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,182 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,183 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,183 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,183 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,184 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,184 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,184 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,185 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,185 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,185 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,186 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,186 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,186 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,187 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,187 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,187 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,188 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,188 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,188 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,189 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,189 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,189 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,190 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,190 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,191 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,191 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,191 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,192 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,192 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,192 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,192 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,193 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,193 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,194 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,194 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,194 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,194 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,194 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,195 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,195 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,195 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,195 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,195 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,196 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,196 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,197 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,197 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,197 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,198 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,198 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,198 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,198 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,199 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,199 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,199 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,200 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,200 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,200 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,200 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,201 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,201 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,201 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,202 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,203 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,203 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,204 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,204 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,204 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,205 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,205 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,206 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,206 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,206 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,207 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,207 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,207 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,208 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,208 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,209 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,209 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,209 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,210 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,210 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,210 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,211 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,211 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,211 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,212 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,212 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,212 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,213 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,213 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,213 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,213 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,214 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,214 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,215 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,215 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,216 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,216 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,217 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,217 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,217 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,218 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,218 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,218 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,219 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,219 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,219 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,220 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,220 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,220 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,221 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,221 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,221 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,222 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,222 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,222 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,223 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,223 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,223 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,224 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,224 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,224 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,225 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,225 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,225 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,226 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,226 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,226 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,227 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,227 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,227 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,227 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,228 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,228 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,228 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,228 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,229 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,229 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,229 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,229 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,229 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,230 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,230 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,230 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,231 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,231 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,231 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,232 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,232 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,232 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,233 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,233 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,233 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,234 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,234 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,234 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,235 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,235 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,235 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,236 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,236 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,237 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,238 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,238 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,239 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,239 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,240 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,240 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,240 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,241 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,241 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,241 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,241 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,241 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,241 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,242 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,242 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,242 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,242 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,243 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,243 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,243 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,243 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,244 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,244 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,245 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,245 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,246 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,246 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,246 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,247 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,247 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,247 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,248 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,248 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,248 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,249 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,249 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,250 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,250 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,250 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,251 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,251 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,251 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,251 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,251 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,252 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,252 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,252 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,253 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,253 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,253 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,254 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,254 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,254 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,254 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,255 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,255 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,255 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,255 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,256 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,256 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,256 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,256 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,257 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,257 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,257 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,257 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,258 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,258 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,258 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,259 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,259 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,260 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,260 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,261 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,261 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,261 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,261 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,262 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,262 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,262 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,262 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,263 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,263 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,263 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,264 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,264 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,264 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,264 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,265 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,265 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,265 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,265 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,266 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,266 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,267 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,267 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,267 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,268 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,268 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,268 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,268 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:09:12,269 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,269 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:09:12,269 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-09 23:09:12,269 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:09:12,270 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,270 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,270 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:09:12,271 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,271 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,271 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:09:12,271 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,271 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,272 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:09:12,272 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,272 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,272 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:09:12,272 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,273 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,273 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:09:12,273 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,273 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,273 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:09:12,273 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,274 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,274 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:09:12,274 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,275 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,275 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:09:12,275 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,275 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,275 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:09:12,276 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:09:12,276 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:09:12,276 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:26:23,099 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:26:23,101 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:26:23,101 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,101 - Action - INFO - Moving file test.txt to archives
+2026-03-09 23:26:23,106 - Action - INFO - Moving file test2.txt to misc
+2026-03-09 23:26:23,109 - Action - INFO - Moving file test3.png to images
+2026-03-09 23:26:23,112 - Agent - INFO - Agent cycle completed successfully.
+2026-03-09 23:26:23,112 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-09 23:26:23,113 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,113 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:26:23,113 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-09 23:26:23,114 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,114 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:26:23,114 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-09 23:26:23,114 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,114 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:26:23,115 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-09 23:26:23,115 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,115 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:26:23,115 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-09 23:26:23,115 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,116 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:26:23,116 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-09 23:26:23,116 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,116 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:26:23,116 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-09 23:26:23,116 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,117 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:26:23,117 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-09 23:26:23,117 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,117 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:26:23,117 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-09 23:26:23,117 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:26:23,117 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:26:23,117 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:29:04,032 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,033 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:29:04,033 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,036 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:29:04,037 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:29:04,038 - Action - INFO - Moving file live_test.txt to images
+2026-03-09 23:29:04,043 - Action - INFO - Moving file test4.txt to images
+2026-03-09 23:29:04,048 - Agent - INFO - Agent cycle completed successfully.
+2026-03-09 23:29:04,049 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:29:04,049 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,050 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:29:04,050 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,051 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:29:04,051 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:29:04,051 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:29:04,052 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:29:04,052 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,053 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:29:04,053 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,053 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:29:04,054 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:29:04,054 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:29:04,054 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:29:04,055 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,056 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:29:04,056 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,057 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:29:04,057 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:29:04,057 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:29:04,058 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:29:04,058 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,059 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:29:04,060 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,061 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:29:04,061 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:29:04,061 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:29:04,062 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-09 23:29:04,062 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,063 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-09 23:29:04,063 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\.sg_agent\workspaces\test_repo
+2026-03-09 23:29:04,063 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-09 23:29:04,064 - Agent - INFO - Starting agent task cycle...
+2026-03-09 23:29:04,064 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-09 23:29:04,064 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-10 20:57:38,247 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot
+2026-03-10 20:57:38,249 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot\.git\objects\info
+2026-03-10 20:57:38,251 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot\.git\refs\tags
+2026-03-10 20:57:38,251 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 2 empty directories.
+2026-03-10 20:57:38,252 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot
+2026-03-10 20:57:38,260 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-10 20:57:38,260 - Agent - INFO - Starting agent task cycle...
+2026-03-10 20:57:38,265 - Action - INFO - Moving file d2.py to code
+2026-03-10 20:57:38,278 - Action - INFO - Moving file d3.py to archives
+2026-03-10 20:57:38,291 - Action - INFO - Moving file d4.py to code
+2026-03-10 20:57:38,305 - Action - INFO - Moving file data.yaml to archives
+2026-03-10 20:57:38,320 - Action - INFO - Moving file depthpro.py to images
+2026-03-10 20:57:38,333 - Action - INFO - Moving file dis_tance.py to documents
+2026-03-10 20:57:38,345 - Action - INFO - Moving file final.py to images
+2026-03-10 20:57:38,357 - Action - INFO - Moving file fourservo.py to documents
+2026-03-10 20:57:38,369 - Action - INFO - Moving file inf-test.py to archives
+2026-03-10 20:57:38,381 - Action - INFO - Moving file inf-test3.py to archives
+2026-03-10 20:57:38,391 - Action - INFO - Moving file inference.py to code
+2026-03-10 20:57:38,399 - Action - INFO - Moving file inference1.py to code
+2026-03-10 20:57:38,411 - Action - INFO - Moving file inference4.py to images
+2026-03-10 20:57:38,424 - Action - INFO - Moving file inf_test2.py to code
+2026-03-10 20:57:38,434 - Action - INFO - Moving file main.py to archives
+2026-03-10 20:57:38,446 - Action - INFO - Moving file model.pth to misc
+2026-03-10 20:57:38,457 - Action - INFO - Moving file multi_distance_scale.json to documents
+2026-03-10 20:57:38,468 - Action - INFO - Moving file output.yaml to misc
+2026-03-10 20:57:38,478 - Action - INFO - Moving file README.dataset.txt to images
+2026-03-10 20:57:38,489 - Action - INFO - Moving file README.md to documents
+2026-03-10 20:57:38,500 - Action - INFO - Moving file README.roboflow.txt to images
+2026-03-10 20:57:38,508 - Action - INFO - Moving file test1.py to documents
+2026-03-10 20:57:38,516 - Action - INFO - Moving file test2.py to archives
+2026-03-10 20:57:38,526 - Agent - INFO - Agent cycle completed successfully.
+2026-03-10 20:57:38,527 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-10 21:03:46,403 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-10 21:03:46,411 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-10 21:03:46,411 - Agent - INFO - Starting agent task cycle...
+2026-03-10 21:03:46,415 - Action - INFO - Moving file test_trigger.txt to documents
+2026-03-10 21:03:46,430 - Agent - INFO - Agent cycle completed successfully.
+2026-03-10 21:03:46,430 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-10 21:03:46,437 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-10 21:03:46,441 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-10 21:09:35,360 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot
+2026-03-10 21:09:35,366 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot\archives
+2026-03-10 21:09:35,370 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot\code
+2026-03-10 21:09:35,374 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot\documents
+2026-03-10 21:09:35,377 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot\images
+2026-03-10 21:09:35,380 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot\misc
+2026-03-10 21:09:35,381 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 5 empty directories.
+2026-03-10 21:09:35,382 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\.sg_agent\workspaces\Waste-Segregation-Bot
+2026-03-10 21:09:35,392 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-10 21:09:35,393 - Agent - INFO - Starting agent task cycle...
+2026-03-10 21:09:35,403 - Action - INFO - Moving file d2.py to code
+2026-03-10 21:09:35,432 - Action - INFO - Moving file d3.py to code
+2026-03-10 21:09:35,449 - Action - INFO - Moving file d4.py to code
+2026-03-10 21:09:35,470 - Action - INFO - Moving file data.yaml to misc
+2026-03-10 21:09:35,488 - Action - INFO - Moving file depthpro.py to code
+2026-03-10 21:09:35,508 - Action - INFO - Moving file dis_tance.py to code
+2026-03-10 21:09:35,521 - Action - INFO - Moving file final.py to code
+2026-03-10 21:09:35,560 - Action - INFO - Moving file fourservo.py to code
+2026-03-10 21:09:35,579 - Action - INFO - Moving file inf-test.py to code
+2026-03-10 21:09:35,593 - Action - INFO - Moving file inf-test3.py to code
+2026-03-10 21:09:35,601 - Action - INFO - Moving file inference.py to code
+2026-03-10 21:09:35,612 - Action - INFO - Moving file inference1.py to code
+2026-03-10 21:09:35,625 - Action - INFO - Moving file inference4.py to code
+2026-03-10 21:09:35,633 - Action - INFO - Moving file inf_test2.py to code
+2026-03-10 21:09:35,648 - Action - INFO - Moving file main.py to code
+2026-03-10 21:09:35,665 - Action - INFO - Moving file model.pth to misc
+2026-03-10 21:09:35,677 - Action - INFO - Moving file multi_distance_scale.json to code
+2026-03-10 21:09:35,689 - Action - INFO - Moving file output.yaml to misc
+2026-03-10 21:09:35,698 - Action - INFO - Moving file README.dataset.txt to images
+2026-03-10 21:09:35,710 - Action - INFO - Moving file README.md to code
+2026-03-10 21:09:35,722 - Action - INFO - Moving file README.roboflow.txt to documents
+2026-03-10 21:09:35,733 - Action - INFO - Moving file test1.py to code
+2026-03-10 21:09:35,755 - Action - INFO - Moving file test2.py to code
+2026-03-10 21:09:35,775 - Agent - INFO - Agent cycle completed successfully.
+2026-03-10 21:09:35,777 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-10 21:54:44,424 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-10 21:54:44,467 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-10 21:54:44,496 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-10 21:54:44,500 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-10 21:54:44,551 - PathResolver - ERROR - Syntax error detected in C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-13\test_verify_syntax0\workspace\bad.py after move:   File "C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-13\test_verify_syntax0\workspace\bad.py", line 1
+    def broken(
+              ^
+SyntaxError: '(' was never closed
+
+2026-03-10 22:26:18,785 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-10 22:26:18,791 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-10 22:26:18,802 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-10 22:26:18,805 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-10 22:26:18,821 - PathResolver - ERROR - Syntax error detected in C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-14\test_verify_syntax0\workspace\bad.py after move:   File "C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-14\test_verify_syntax0\workspace\bad.py", line 1
+    def broken(
+              ^
+SyntaxError: '(' was never closed
+
+2026-03-10 22:41:56,069 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-10 22:41:56,074 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-10 22:41:56,085 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-10 22:41:56,088 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-10 22:41:56,105 - PathResolver - ERROR - Syntax error detected in C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-15\test_verify_syntax0\workspace\bad.py after move:   File "C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-15\test_verify_syntax0\workspace\bad.py", line 1
+    def broken(
+              ^
+SyntaxError: '(' was never closed
+
+2026-03-10 22:41:56,111 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-10 22:41:56,122 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-10 22:41:56,122 - Agent - INFO - Starting agent task cycle...
+2026-03-10 22:41:56,122 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-10 22:41:56,122 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-10 22:41:56,125 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-10 22:41:56,125 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-10 22:54:31,248 - Action - INFO - Moving file utils.py to code
+2026-03-10 22:54:31,254 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-10 22:54:31,280 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-10 22:56:33,128 - Action - INFO - Moving file utils.py to code
+2026-03-10 22:56:33,134 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-10 22:56:33,139 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-10 22:57:05,177 - Action - INFO - Moving file utils.py to code
+2026-03-10 22:57:05,182 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-10 22:57:05,186 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-13 18:12:39,383 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-13 18:12:39,433 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-13 18:12:39,677 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-13 18:12:39,684 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-13 18:12:39,735 - PathResolver - ERROR - Syntax error detected in C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-16\test_verify_syntax0\workspace\bad.py after move:   File "C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-16\test_verify_syntax0\workspace\bad.py", line 1
+    def broken(
+              ^
+SyntaxError: '(' was never closed
+
+2026-03-13 18:12:39,750 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-13 18:12:39,750 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-13 18:12:39,750 - Agent - INFO - Starting agent task cycle...
+2026-03-13 18:12:39,751 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-13 18:12:39,751 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-13 18:12:39,754 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-13 18:12:39,755 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-13 18:12:50,203 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-13 18:12:50,210 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-13 18:12:50,319 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-13 18:12:50,324 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-13 18:12:50,350 - PathResolver - ERROR - Syntax error detected in C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-17\test_verify_syntax0\workspace\bad.py after move:   File "C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-17\test_verify_syntax0\workspace\bad.py", line 1
+    def broken(
+              ^
+SyntaxError: '(' was never closed
+
+2026-03-13 18:12:50,359 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-13 18:12:50,359 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-13 18:12:50,360 - Agent - INFO - Starting agent task cycle...
+2026-03-13 18:12:50,360 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-13 18:12:50,360 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-13 18:12:50,363 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-13 18:12:50,364 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-13 18:13:10,358 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-13 18:13:10,367 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-13 18:13:10,487 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-13 18:13:10,494 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-13 18:13:10,518 - PathResolver - ERROR - Syntax error detected in C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-18\test_verify_syntax0\workspace\bad.py after move:   File "C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-18\test_verify_syntax0\workspace\bad.py", line 1
+    def broken(
+              ^
+SyntaxError: '(' was never closed
+
+2026-03-13 18:13:10,527 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-13 18:13:10,528 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-13 18:13:10,528 - Agent - INFO - Starting agent task cycle...
+2026-03-13 18:13:10,528 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-13 18:13:10,528 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-13 18:13:10,532 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-13 18:13:10,532 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-13 18:13:54,410 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-13 18:13:54,420 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-13 18:13:54,539 - PathResolver - INFO - Updated python imports in main.py: utils -> code.utils
+2026-03-13 18:13:54,548 - PathResolver - INFO - Updated config/doc references in config.json: utils.py -> code/utils.py
+2026-03-13 18:13:54,585 - PathResolver - ERROR - Syntax error detected in C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-19\test_verify_syntax0\workspace\bad.py after move:   File "C:\Users\kesha\AppData\Local\Temp\pytest-of-kesha\pytest-19\test_verify_syntax0\workspace\bad.py", line 1
+    def broken(
+              ^
+SyntaxError: '(' was never closed
+
+2026-03-13 18:13:54,593 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-13 18:13:54,593 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-13 18:13:54,593 - Agent - INFO - Starting agent task cycle...
+2026-03-13 18:13:54,594 - Agent - INFO - Workspace is clean. No files to process.
+2026-03-13 18:13:54,594 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-13 18:13:54,596 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Self_Learning AI Agent\demo_workspace
+2026-03-13 18:13:54,597 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 0 empty directories.
+2026-03-13 23:57:49,484 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-13 23:57:49,486 - Action - INFO - Moving file quick_check.py to scripts
+2026-03-13 23:57:50,261 - PathResolver - INFO - Rope updated Python references for quick_check.py
+2026-03-14 00:07:20,372 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 00:07:20,373 - Action - INFO - Moving file quick_check.py to scripts
+2026-03-14 00:07:20,375 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <quick_check.py> does not exist
+2026-03-14 00:07:20,399 - PathResolver - INFO - Updated text references in history.json
+2026-03-14 12:08:37,967 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:08,134 - FileSortingTask - INFO - Initializing File Sorting Task in C:\Users\kesha\OneDrive\Desktop\Projects\ml-from-scratch\Waste_seg\TACO
+2026-03-14 12:25:08,140 - FileSortingTask - INFO - --- Episode 1 ---
+2026-03-14 12:25:08,140 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:08,598 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:08,599 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:08,787 - PathResolver - ERROR - Failed to update references: no such table: package_map
+2026-03-14 12:25:08,787 - Action - ERROR - Failed to resolve references for .agent_cache.db
+2026-03-14 12:25:08,862 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:08,862 - Action - INFO - Moving file .gitignore to misc
+2026-03-14 12:25:09,383 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:09,384 - Action - INFO - Moving file add_image_urls.py to code
+2026-03-14 12:25:09,385 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <add_image_urls.py> does not exist
+2026-03-14 12:25:09,647 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:09,647 - Action - INFO - Moving file check_labels.py to code
+2026-03-14 12:25:09,649 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <check_labels.py> does not exist
+2026-03-14 12:25:09,889 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:09,891 - Action - INFO - Moving file check_original_mapping.py to code
+2026-03-14 12:25:09,893 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <check_original_mapping.py> does not exist
+2026-03-14 12:25:10,131 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:10,132 - Action - INFO - Moving file clean_duplicates.py to code
+2026-03-14 12:25:10,133 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <clean_duplicates.py> does not exist
+2026-03-14 12:25:10,385 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:10,385 - Action - INFO - Moving file create_yolo_annotations_csv.py to code
+2026-03-14 12:25:10,387 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <create_yolo_annotations_csv.py> does not exist
+2026-03-14 12:25:10,664 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:10,664 - Action - INFO - Moving file demo.ipynb to misc
+2026-03-14 12:25:10,935 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:10,935 - Action - INFO - Moving file diagnose_labels.py to code
+2026-03-14 12:25:10,936 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <diagnose_labels.py> does not exist
+2026-03-14 12:25:11,229 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:11,229 - Action - INFO - Moving file download.py to code
+2026-03-14 12:25:11,231 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <download.py> does not exist
+2026-03-14 12:25:11,276 - PathResolver - INFO - Updated text references in README.md
+2026-03-14 12:25:11,470 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:11,471 - Action - INFO - Moving file duplicate_images_report.txt to documents
+2026-03-14 12:25:11,805 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:11,805 - Action - INFO - Moving file extract_labels_and_images.py to code
+2026-03-14 12:25:11,807 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <extract_labels_and_images.py> does not exist
+2026-03-14 12:25:12,067 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:12,067 - Action - INFO - Moving file fix_data_yaml.py to code
+2026-03-14 12:25:12,069 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <fix_data_yaml.py> does not exist
+2026-03-14 12:25:12,309 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:12,309 - Action - INFO - Moving file LICENSE to misc
+2026-03-14 12:25:12,579 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:12,579 - Action - INFO - Moving file mapping_labels.py to code
+2026-03-14 12:25:12,581 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <mapping_labels.py> does not exist
+2026-03-14 12:25:12,832 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:12,832 - Action - INFO - Moving file README.md to code
+2026-03-14 12:25:13,098 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:13,098 - Action - INFO - Moving file remap_category_ids.py to code
+2026-03-14 12:25:13,099 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <remap_category_ids.py> does not exist
+2026-03-14 12:25:13,378 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:13,378 - Action - INFO - Moving file remap_labels.py to code
+2026-03-14 12:25:13,381 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <remap_labels.py> does not exist
+2026-03-14 12:25:13,688 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:13,688 - Action - INFO - Moving file requirements.txt to documents
+2026-03-14 12:25:13,740 - PathResolver - INFO - Updated text references in README.md
+2026-03-14 12:25:13,952 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:13,953 - Action - INFO - Moving file setup_environment.bat to misc
+2026-03-14 12:25:14,255 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:14,256 - Action - INFO - Moving file split_dataset.py to code
+2026-03-14 12:25:14,257 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <split_dataset.py> does not exist
+2026-03-14 12:25:14,315 - PathResolver - INFO - Updated text references in README.md
+2026-03-14 12:25:14,566 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:14,567 - Action - INFO - Moving file train.py to code
+2026-03-14 12:25:14,569 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <train.py> does not exist
+2026-03-14 12:25:14,632 - PathResolver - INFO - Updated text references in TRAINING_GUIDE.md
+2026-03-14 12:25:14,930 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:14,930 - Action - INFO - Moving file TRAINING_GUIDE.md to code
+2026-03-14 12:25:15,255 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:15,255 - Action - INFO - Moving file verify_label_image_match.py to code
+2026-03-14 12:25:15,256 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <verify_label_image_match.py> does not exist
+2026-03-14 12:25:15,545 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:15,545 - Action - INFO - Moving file verify_split.py to code
+2026-03-14 12:25:15,548 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <verify_split.py> does not exist
+2026-03-14 12:25:15,809 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:15,810 - Action - INFO - Moving file visualize_labels.py to code
+2026-03-14 12:25:15,812 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <visualize_labels.py> does not exist
+2026-03-14 12:25:16,042 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:16,043 - Action - INFO - Moving file yolo26n.pt to misc
+2026-03-14 12:25:16,378 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:16,379 - Action - INFO - Moving file yolov8n.pt to misc
+2026-03-14 12:25:16,418 - PathResolver - INFO - Updated text references in args.yaml
+2026-03-14 12:25:16,420 - PathResolver - INFO - Updated text references in args.yaml
+2026-03-14 12:25:16,434 - PathResolver - INFO - Updated text references in TRAINING_GUIDE.md
+2026-03-14 12:25:16,607 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:16,608 - FileSortingTask - INFO - --- Episode 2 ---
+2026-03-14 12:25:16,608 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:16,683 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:16,683 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:16,955 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:16,955 - FileSortingTask - INFO - --- Episode 3 ---
+2026-03-14 12:25:16,956 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:17,041 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:17,041 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:17,308 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:17,309 - FileSortingTask - INFO - --- Episode 4 ---
+2026-03-14 12:25:17,309 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:17,396 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:17,396 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:17,627 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:17,628 - FileSortingTask - INFO - --- Episode 5 ---
+2026-03-14 12:25:17,629 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:17,698 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:17,699 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:17,921 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:17,922 - FileSortingTask - INFO - --- Episode 6 ---
+2026-03-14 12:25:17,922 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:17,976 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:17,976 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:18,219 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:18,219 - FileSortingTask - INFO - --- Episode 7 ---
+2026-03-14 12:25:18,219 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:18,277 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:18,277 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:18,521 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:18,522 - FileSortingTask - INFO - --- Episode 8 ---
+2026-03-14 12:25:18,523 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:18,623 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:18,624 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:18,867 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:18,868 - FileSortingTask - INFO - --- Episode 9 ---
+2026-03-14 12:25:18,868 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:18,937 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:18,937 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:19,135 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:19,135 - FileSortingTask - INFO - --- Episode 10 ---
+2026-03-14 12:25:19,135 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:19,206 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:19,206 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:19,422 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:19,422 - FileSortingTask - INFO - --- Episode 11 ---
+2026-03-14 12:25:19,423 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:19,493 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:19,494 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:19,730 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:19,731 - FileSortingTask - INFO - --- Episode 12 ---
+2026-03-14 12:25:19,731 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:19,821 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:19,821 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:20,079 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:20,079 - FileSortingTask - INFO - --- Episode 13 ---
+2026-03-14 12:25:20,079 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:20,147 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:20,148 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:20,362 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:20,363 - FileSortingTask - INFO - --- Episode 14 ---
+2026-03-14 12:25:20,363 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:20,474 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:20,475 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:20,785 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:20,786 - FileSortingTask - INFO - --- Episode 15 ---
+2026-03-14 12:25:20,786 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:20,858 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:20,858 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:21,099 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:21,100 - FileSortingTask - INFO - --- Episode 16 ---
+2026-03-14 12:25:21,101 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:21,187 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:21,187 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:21,432 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:21,432 - FileSortingTask - INFO - --- Episode 17 ---
+2026-03-14 12:25:21,433 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:21,529 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:21,529 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:21,774 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:21,775 - FileSortingTask - INFO - --- Episode 18 ---
+2026-03-14 12:25:21,775 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:21,869 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:21,870 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:22,077 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:22,078 - FileSortingTask - INFO - --- Episode 19 ---
+2026-03-14 12:25:22,078 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:22,155 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:22,155 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:22,405 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:22,406 - FileSortingTask - INFO - --- Episode 20 ---
+2026-03-14 12:25:22,406 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:22,474 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:22,474 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:22,739 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:22,740 - FileSortingTask - INFO - --- Episode 21 ---
+2026-03-14 12:25:22,740 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:22,803 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:22,803 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:23,038 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:23,038 - FileSortingTask - INFO - --- Episode 22 ---
+2026-03-14 12:25:23,039 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:23,115 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:23,115 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:23,335 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:23,335 - FileSortingTask - INFO - --- Episode 23 ---
+2026-03-14 12:25:23,336 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:23,410 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:23,411 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:23,650 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:23,650 - FileSortingTask - INFO - --- Episode 24 ---
+2026-03-14 12:25:23,651 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:23,714 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:23,715 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:23,919 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:23,920 - FileSortingTask - INFO - --- Episode 25 ---
+2026-03-14 12:25:23,920 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:24,004 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:24,005 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:24,205 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:24,206 - FileSortingTask - INFO - --- Episode 26 ---
+2026-03-14 12:25:24,206 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:24,261 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:24,261 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:24,514 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:24,515 - FileSortingTask - INFO - --- Episode 27 ---
+2026-03-14 12:25:24,516 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:24,588 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:24,588 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:24,827 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:24,827 - FileSortingTask - INFO - --- Episode 28 ---
+2026-03-14 12:25:24,828 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:24,895 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:24,895 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:25,130 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:25,130 - FileSortingTask - INFO - --- Episode 29 ---
+2026-03-14 12:25:25,130 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:25,192 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:25,192 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:25,372 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:25,373 - FileSortingTask - INFO - --- Episode 30 ---
+2026-03-14 12:25:25,373 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:25,435 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:25,436 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:25,646 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:25,647 - FileSortingTask - INFO - --- Episode 31 ---
+2026-03-14 12:25:25,647 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:25,717 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:25,717 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:25,989 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:25,990 - FileSortingTask - INFO - --- Episode 32 ---
+2026-03-14 12:25:25,990 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:26,048 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:26,048 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:26,279 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:26,280 - FileSortingTask - INFO - --- Episode 33 ---
+2026-03-14 12:25:26,280 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:26,342 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:26,343 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:26,597 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:26,597 - FileSortingTask - INFO - --- Episode 34 ---
+2026-03-14 12:25:26,597 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:26,677 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:26,678 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:26,916 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:26,916 - FileSortingTask - INFO - --- Episode 35 ---
+2026-03-14 12:25:26,917 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:26,984 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:26,984 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:27,222 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:27,223 - FileSortingTask - INFO - --- Episode 36 ---
+2026-03-14 12:25:27,224 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:27,295 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:27,296 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:27,512 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:27,513 - FileSortingTask - INFO - --- Episode 37 ---
+2026-03-14 12:25:27,513 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:27,578 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:27,579 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:27,812 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:27,812 - FileSortingTask - INFO - --- Episode 38 ---
+2026-03-14 12:25:27,813 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:27,871 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:27,872 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:28,107 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:28,108 - FileSortingTask - INFO - --- Episode 39 ---
+2026-03-14 12:25:28,108 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:28,178 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:28,178 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:28,365 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:28,366 - FileSortingTask - INFO - --- Episode 40 ---
+2026-03-14 12:25:28,366 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:28,431 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:28,432 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:28,658 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:28,659 - FileSortingTask - INFO - --- Episode 41 ---
+2026-03-14 12:25:28,659 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:28,743 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:28,744 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:28,950 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:28,950 - FileSortingTask - INFO - --- Episode 42 ---
+2026-03-14 12:25:28,951 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:29,038 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:29,039 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:29,243 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:29,244 - FileSortingTask - INFO - --- Episode 43 ---
+2026-03-14 12:25:29,244 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:29,318 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:29,318 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:29,556 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:29,556 - FileSortingTask - INFO - --- Episode 44 ---
+2026-03-14 12:25:29,557 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:29,657 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:29,657 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:29,845 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:29,846 - FileSortingTask - INFO - --- Episode 45 ---
+2026-03-14 12:25:29,846 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:29,917 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:29,918 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:30,162 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:30,163 - FileSortingTask - INFO - --- Episode 46 ---
+2026-03-14 12:25:30,163 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:30,230 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:30,230 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:30,469 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:30,469 - FileSortingTask - INFO - --- Episode 47 ---
+2026-03-14 12:25:30,469 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:30,543 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:30,543 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:30,760 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:30,760 - FileSortingTask - INFO - --- Episode 48 ---
+2026-03-14 12:25:30,761 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:30,829 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:30,829 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:31,012 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:31,012 - FileSortingTask - INFO - --- Episode 49 ---
+2026-03-14 12:25:31,013 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:31,073 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:31,074 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:31,320 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:31,321 - FileSortingTask - INFO - --- Episode 50 ---
+2026-03-14 12:25:31,321 - Agent - INFO - Starting agent task cycle...
+2026-03-14 12:25:31,398 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:25:31,399 - Action - INFO - Moving file .agent_cache.db to misc
+2026-03-14 12:25:31,583 - Agent - INFO - Agent cycle completed successfully.
+2026-03-14 12:25:31,584 - FileSortingTask - INFO - File Sorting Task Completed!
+2026-03-14 12:25:44,452 - FileCleanupTask - INFO - Initializing File Cleanup Task in C:\Users\kesha\OneDrive\Desktop\Projects\ml-from-scratch\Waste_seg\TACO
+2026-03-14 12:25:44,454 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\OneDrive\Desktop\Projects\ml-from-scratch\Waste_seg\TACO\.git\objects\info
+2026-03-14 12:25:44,455 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\OneDrive\Desktop\Projects\ml-from-scratch\Waste_seg\TACO\.git\refs\tags
+2026-03-14 12:25:44,456 - FileCleanupTask - INFO - Removing empty directory: C:\Users\kesha\OneDrive\Desktop\Projects\ml-from-scratch\Waste_seg\TACO\runs\detect\runs\train\taco_waste_detection\weights
+2026-03-14 12:25:44,457 - FileCleanupTask - INFO - File Cleanup Task Completed! Removed 3 empty directories.
+2026-03-14 12:27:10,689 - PackageManager - INFO - Module map rebuilt successfully.
+2026-03-14 12:27:10,690 - Action - INFO - Moving file quick_check.py to core
+2026-03-14 12:27:10,691 - PathResolver - WARNING - Rope internal move failed (likely file already moved): Resource <quick_check.py> does not exist
+2026-03-14 12:27:10,694 - PathResolver - INFO - Updated text references in history.json

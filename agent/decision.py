@@ -1,5 +1,5 @@
 import random
-from utils.config import LEARNING_RATE, DISCOUNT_FACTOR, EXPLORATION_RATE, EXPLORATION_DECAY, MIN_EXPLORATION_RATE
+from utils.config import LEARNING_RATE, DISCOUNT_FACTOR, EXPLORATION_RATE, EXPLORATION_DECAY, MIN_EXPLORATION_RATE, SUPPORTED_FILE_TYPES
 from utils.logger import get_logger
 from agent.sqlite_dao import SQLiteDAO
 
@@ -15,12 +15,49 @@ class QLearningDecision:
 
     def get_state_key(self, state):
         """Convert state dictionary to a hashable string key for Q-table."""
-        # For simplicity, state is determined by the file extension we are trying to categorize
-        return state.get("extension", "unknown").lower()
+        ext = state.get("extension", "unknown").lower()
+        filename = state.get("filename", "").lower()
+        
+        # Add basic keyword flags to make state more granular
+        if any(kw in filename for kw in ["test_", ".test"]):
+            return f"{ext}_test"
+        if any(kw in filename for kw in ["config", "settings", "env"]):
+            return f"{ext}_config"
+        if any(kw in filename for kw in ["main", "app"]):
+            return f"{ext}_main"
+        if any(kw in filename for kw in ["init", "__init__"]):
+            return f"{ext}_init"
+        if any(kw in filename for kw in ["invoice", "receipt", "billing"]):
+            return f"{ext}_invoice"
+        if any(kw in filename for kw in ["finance", "tax", "financial"]):
+            return f"{ext}_finance"
+        if any(kw in filename for kw in ["report", "summary"]):
+            return f"{ext}_report"
+        if any(kw in filename for kw in ["personal", "private", "secret", "confidential"]):
+            return f"{ext}_private"
+        if any(kw in filename for kw in ["project", "draft", "final"]):
+            return f"{ext}_work"
+            
+        return ext
+        
+    def _get_heuristic_action(self, state_key):
+        # Extract base extension (e.g., .pdf from .pdf_finance)
+        base_ext = state_key.split("_")[0] if "_" in state_key else state_key
+        
+        for folder, exts in SUPPORTED_FILE_TYPES.items():
+            if base_ext in exts:
+                return folder
+        return "misc"
 
     def get_action_q(self, state_key, action):
         val = self.dao.get_q(state_key, action)
-        return val if val is not None else 0.0
+        if val is not None:
+            return val
+        
+        # Inject prior knowledge for zero-shot accuracy
+        if action == self._get_heuristic_action(state_key):
+            return 10.0
+        return 0.0
 
     def choose_action(self, state):
         """Choose action using epsilon-greedy policy."""
