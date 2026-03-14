@@ -15,14 +15,23 @@ EXPLORATION_RATE = 0.01  # Lowered so it prefers exploiting known correct action
 EXPLORATION_DECAY = 0.99
 MIN_EXPLORATION_RATE = 0.00  # Allows agent to stop exploring completely after training
 
-# Task specific config for file sorting
+# Task specific config for file sorting — new 3-layer classification categories
 SUPPORTED_FILE_TYPES = {
-    "images": [".jpg", ".png", ".jpeg", ".gif", ".svg", ".webp"],
-    "documents": [".pdf", ".docx", ".txt", ".xlsx", ".csv", ".pptx"],
-    "archives": [".zip", ".tar.gz", ".rar", ".7z"],
-    "code": [".py", ".js", ".html", ".css", ".md", ".json", ".ts", ".go"],
-    "audio": [".mp3", ".wav", ".flac", ".ogg"],
-    "video": [".mp4", ".mkv", ".avi", ".mov"]
+    "code":           [".py", ".js", ".ts", ".java", ".cpp", ".c", ".go", ".rs"],
+    "code/frontend":  [".html", ".css", ".jsx", ".tsx", ".vue", ".scss"],
+    "code/api":       [],   # determined by content analysis, not extension
+    "code/auth":      [],   # determined by content analysis
+    "code/ml":        [],   # determined by content analysis
+    "config":         [".yaml", ".yml", ".json", ".toml", ".env", ".cfg", ".ini"],
+    "docs":           [".md", ".rst", ".txt", ".pdf"],
+    "images":         [".jpg", ".jpeg", ".png", ".gif", ".svg", ".ico", ".webp"],
+    "data":           [".csv", ".xlsx", ".parquet", ".jsonl"],
+    "database":       [".db", ".sqlite", ".sql"],
+    "models":         [".pt", ".pth", ".pkl", ".h5", ".onnx"],
+    "notebooks":      [".ipynb"],
+    "tests":          [],   # determined by content/name analysis
+    "scripts":        [".sh", ".bat", ".ps1"],
+    "misc":           [],
 }
 
 # Rewards for reinforcement learning
